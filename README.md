@@ -30,19 +30,6 @@ The interface is designed around the concept of a crystal ball - complete with f
 - **Voice Input**: Speech-to-text for hands-free interaction
 - **Memory System**: Persistent user facts and conversation history
 
-## Project Structure
-
-```
-src/
-├── ai/                 # Genkit flows and tools
-│   ├── flows/         # Main AI conversation logic
-│   └── tools/         # Specialized tools (tarot, wellness, etc.)
-├── app/               # Next.js app router pages
-├── components/        # React components
-│   └── ui/           # Reusable UI components
-├── hooks/            # Custom React hooks
-└── lib/              # Utilities and configuration
-```
 
 ## Local Development
 
@@ -50,6 +37,8 @@ src/
 2. Install dependencies: `npm install`
 3. Set up environment variables (see `.env.example`)
 4. Run development server: `npm run dev`
+
+May fail because of capacitor
 
 ### Required Environment Variables
 
@@ -103,11 +92,3 @@ This was originally planned as a mobile app but ran into App Store requirements 
 - Contact form requires Firebase setup
 - Tarot readings use simplified Major Arcana only
 - Mobile app builds need additional native configuration
-
-## License Thoughts
-
-Since this touches on spiritual/religious themes and AI-generated content, consider the implications of different licenses. The codebase itself is straightforward web development, but the AI prompts and mystical content might need additional disclaimers.
-
----
-
-*This project was an exploration in alternative AI interfaces and mystical UX design. While not commercially released, it demonstrates several interesting technical approaches to conversational AI applications.*
