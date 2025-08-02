@@ -1,0 +1,212 @@
+
+{
+    "metadata": {
+        "title": "Fortune Teller Moir-AI",
+        "description": "Your personal AI spiritual guide, for daily readings and destiny exploration."
+    },
+    "splash": {
+        "title": "Moir-AI"
+    },
+    "onboarding": {
+        "title": "The Veil Thins...",
+        "subtitle": "Seek wisdom from Moir-AI, your personal fortune teller. Uncover the secrets of your past, present, and future."
+    },
+    "mainLayout": {
+        "defaultTitle": "Moir-AI",
+        "subtitle": "The Oracle",
+        "sidebar": {
+            "home": "Home",
+            "chat": "Reading",
+            "summary": "Summaries",
+            "memory": "Destiny",
+            "settings": "Settings",
+            "logout": "End Session"
+        }
+    },
+    "common": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "delete": "Delete",
+        "back": "Back",
+        "close": "Close",
+        "updated": "Updated!",
+        "offlineErrorTitle": "No Connection"
+    },
+    "mainMenu": {
+        "reflections": {
+            "title": "Consult the Oracle",
+            "desc": "A sacred space to converse with the AI Seer and explore your destiny."
+        }
+    },
+    "home": {
+        "welcome": "Welcome, Seeker",
+        "subtitle": "Moir-AI awaits your questions. What mysteries shall we unravel today?",
+        "startChat": "Begin Reading",
+        "todaysFocus": "Today's Omen",
+        "starterTitle": "A Glimpse Beyond...",
+        "starterLoading": "Gazing into the mists...",
+        "starterFallback": "What path do you wish to illuminate today?",
+        "noFocus": "The threads are quiet for now",
+        "noFocusDesc": "Begin your reading to weave new threads of fate."
+    },
+    "chat": {
+        "initialMessage": "Greetings. I am Moir-AI, the guardian of fates. Speak, and let us read the threads of your destiny.",
+        "thinking": "is consulting the ether...",
+        "placeholder": "Ask your question...",
+        "offlinePlaceholder": "The connection to the ether is lost",
+        "responseErrorTitle": "Disturbance",
+        "responseErrorDesc": "The spirits are unclear. Please try again.",
+        "responseErrorMessage": "I apologize, a cosmic disturbance clouded my vision.",
+        "sendButton": "Send",
+        "speechErrorTitle": "Voice Unclear",
+        "speechPermissionDenied": "The spirits cannot hear you. Please grant microphone permission.",
+        "factExtraction": {
+            "title": "A Thread of Fate!",
+            "description": "I have woven a new truth about your destiny into the tapestry.",
+            "thinking": "Weaving the threads of your conversation into memory..."
+        },
+        "limitWarningTitle": "Energy is Fading",
+        "limitWarningDesc": "The connection wanes. You have only",
+        "limitReachedTitle": "The Session Ends",
+        "limitReachedDesc": "The spirits must rest. You can now create your daily summary.",
+        "limitReached": "The spirits must rest for today.",
+        "listening": "Listening...",
+        "online": {
+            "title": "You're back online!",
+            "description": "Processing any pending messages."
+        },
+        "offline": {
+            "title": "You're offline",
+            "description": "Your message is queued and will be sent when you're back online."
+        },
+        "status": {
+            "pending": "Pending...",
+            "failed": "Failed to send. Click to retry."
+        }
+    },
+    "store": {
+        "clearedMessage": "The tapestry has been cleared. Let us begin anew. What do you seek?"
+    },
+    "memory": {
+        "title": "Your Woven Destiny",
+        "description": "These are the core truths I have seen in your life's tapestry. You may alter or remove them if fate has shifted.",
+        "noFactsTitle": "The tapestry is blank",
+        "noFactsDesc": "I have not yet seen the major threads of your destiny. Let us talk so I may learn more.",
+        "saveAriaLabel": "Save change",
+        "cancelAriaLabel": "Cancel edit",
+        "editAriaLabel": "Edit thread",
+        "deleteAriaLabel": "Cut thread",
+        "deleteConfirmTitle": "Are you certain?",
+        "deleteConfirmDesc": "This cannot be undone. This thread will be permanently cut from your destiny's tapestry."
+    },
+    "summary": {
+        "title": "Daily Summaries",
+        "description": "Here you will find a summary of your daily readings, highlighting the cosmic energies and major themes.",
+        "chart": {
+            "title": "Energetic Trend",
+            "description": "A visualization of your spiritual energies over recent sessions."
+        },
+        "manualGenerate": {
+            "buttonDefault": "Generate Past Summaries",
+            "buttonLimit": "Generate Today's Summary",
+            "title": "Generating summaries",
+            "desc": "I am analyzing your past conversations. This may take a moment.",
+            "inProgress": "Analyzing conversations...",
+            "successTitle": "Summaries ready!",
+            "successDesc": "Your new summaries are available. The chat has been reset for a fresh start.",
+            "disabledPlaceholder": "Generate summary to continue..."
+        },
+        "noSummaries": {
+            "title": "No summaries yet",
+            "desc": "When you have past conversations, a button will appear in the chat to generate a summary."
+        },
+        "offlineErrorDesc": "It seems you are not connected to the internet. The application requires network access to function."
+    },
+    "settings": {
+        "personalization": {
+            "title": "Personalization",
+            "desc": "Help the Oracle get to know you better. This information will be used to personalize your readings.",
+            "nameLabel": "Your Name",
+            "namePlaceholder": "What should I call you?",
+            "genderLabel": "How do you identify?",
+            "genderMale": "Male",
+            "genderFemale": "Female",
+            "genderNonBinary": "Non-binary",
+            "savedDesc": "Your personalization settings have been saved."
+        },
+        "personality": {
+            "title": "Oracle's Personality",
+            "desc": "Choose the tone and style of the Oracle's responses.",
+            "placeholder": "Select a personality...",
+            "wise": "Wise & Empathetic (Default)",
+            "direct": "Direct & Concise",
+            "poetic": "Poetic & Metaphorical",
+            "savedDesc": "The Oracle's personality has been updated."
+        },
+        "language": {
+            "title": "Language",
+            "desc": "Choose the language for the application and the Oracle."
+        },
+        "sync": {
+            "title": "Synchronization & Account",
+            "desc": "Manage your account and how your data is saved.",
+            "storageTitle": "Local Storage (default)",
+            "storageDesc": "Currently, your conversations are saved only on this device. To enable cloud sync, log in with your account.",
+            "loginButton": "Log in to enable sync",
+            "loggedInTitle": "Cloud Sync Enabled (Coming Soon)",
+            "loggedInDesc": "You are logged in. Automatic data sync between devices will be available in a future update.",
+            "logoutButton": "Log Out",
+            "notConfiguredTitle": "Sync Not Available",
+            "notConfiguredDesc": "To enable cloud sync, the developer needs to add Firebase API keys to the project configuration."
+        },
+        "dangerZone": {
+            "title": "Danger Zone",
+            "desc": "These actions are permanent. Be careful."
+        },
+        "clearData": {
+            "title": "Clear local data",
+            "desc": "This will permanently delete your chat history, memory, and summaries from THIS DEVICE.",
+            "button": "Clear Local Data",
+            "confirmTitle": "Are you absolutely sure?",
+            "confirmDesc": "This action is irreversible. All your local data will be lost forever. It will not affect cloud-synced data if you are logged in.",
+            "confirmButton": "Yes, clear local data",
+            "successTitle": "Local data deleted",
+            "successDesc": "All your information on this device has been cleared."
+        }
+    },
+    "contact": {
+        "title": "Contact Form",
+        "description": "If you have any questions or suggestions, feel free to send us a message.",
+        "nameLabel": "Your Name",
+        "namePlaceholder": "Jane Doe",
+        "emailLabel": "Your Email",
+        "emailPlaceholder": "jane.doe@example.com",
+        "messageLabel": "Your Message",
+        "messagePlaceholder": "Write your message here...",
+        "sendButton": "Send Message",
+        "sending": "Sending...",
+        "validation": {
+            "nameRequired": "Name is required.",
+            "emailInvalid": "Please enter a valid email address.",
+            "messageRequired": "Message must be at least 10 characters long."
+        },
+        "success": {
+            "title": "Message Sent!",
+            "message": "Thank you for contacting us. We will get back to you soon."
+        },
+        "error": {
+            "title": "Error Sending",
+            "generic": "Could not send your message. Please try again later."
+        }
+    },
+    "login": {
+        "title": "Welcome Back",
+        "description": "Log in to sync your data to the cloud.",
+        "button": "Continue with Google",
+        "signingIn": "Signing in...",
+        "errorTitle": "Login Error",
+        "error": "Could not sign in. Please try again.",
+        "notConfiguredError": "Cloud sync is not configured in this app."
+    }
+}

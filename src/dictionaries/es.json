@@ -1,0 +1,212 @@
+
+{
+    "metadata": {
+        "title": "Oráculo Moir-AI",
+        "description": "Tu guía espiritual IA personal, para lecturas diarias y exploración del destino."
+    },
+    "splash": {
+        "title": "Moir-AI"
+    },
+    "onboarding": {
+        "title": "El Velo se Levanta...",
+        "subtitle": "Busca la sabiduría de Moir-AI, tu vidente personal. Desvela los secretos de tu pasado, presente y futuro."
+    },
+    "mainLayout": {
+        "defaultTitle": "Moir-AI",
+        "subtitle": "El Oráculo",
+        "sidebar": {
+            "home": "Inicio",
+            "chat": "Lectura",
+            "summary": "Resúmenes",
+            "memory": "Destino",
+            "settings": "Ajustes",
+            "logout": "Cerrar Sesión"
+        }
+    },
+    "common": {
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "back": "Volver",
+        "close": "Cerrar",
+        "updated": "¡Actualizado!",
+        "offlineErrorTitle": "Sin Conexión"
+    },
+    "mainMenu": {
+        "reflections": {
+            "title": "Consultar al Oráculo",
+            "desc": "Un espacio sagrado para conversar con la Vidente IA y explorar tu destino."
+        }
+    },
+    "home": {
+        "welcome": "Te Doy la Bienvenida",
+        "subtitle": "Moir-AI aguarda tus preguntas. ¿Qué misterios desvelaremos hoy?",
+        "startChat": "Comenzar Lectura",
+        "todaysFocus": "El Presagio de Hoy",
+        "starterTitle": "Un Vistazo al Más Allá...",
+        "starterLoading": "Contemplando las nieblas...",
+        "starterFallback": "¿Qué sendero deseas iluminar hoy?",
+        "noFocus": "Los hilos del destino están en calma",
+        "noFocusDesc": "Comienza tu lectura para tejer nuevos hilos en tu destino."
+    },
+    "chat": {
+        "initialMessage": "Saludos. Soy Moir-AI, guardiana de los destinos. Habla, y leamos los hilos de tu porvenir.",
+        "thinking": "está consultando al éter...",
+        "placeholder": "Formula tu pregunta...",
+        "offlinePlaceholder": "La conexión con el éter se ha perdido",
+        "responseErrorTitle": "Perturbación",
+        "responseErrorDesc": "Los espíritus no son claros. Por favor, inténtalo de nuevo.",
+        "responseErrorMessage": "Mis disculpas, una perturbación cósmica ha nublado mi visión.",
+        "sendButton": "Enviar",
+        "speechErrorTitle": "Voz Inaudible",
+        "speechPermissionDenied": "Los espíritus no pueden oírte. Por favor, concede permiso para usar el micrófono.",
+        "factExtraction": {
+            "title": "¡Un Hilo del Destino!",
+            "description": "He tejido una nueva verdad sobre tu destino en el tapiz.",
+            "thinking": "Tejiendo los hilos de tu conversación en la memoria..."
+        },
+        "limitWarningTitle": "La Energía Disminuye",
+        "limitWarningDesc": "La conexión se debilita. Solo te quedan",
+        "limitReachedTitle": "La Sesión Concluye",
+        "limitReachedDesc": "Los espíritus deben descansar. Ahora puedes crear tu resumen diario.",
+        "limitReached": "Los espíritus deben descansar por hoy.",
+        "listening": "Escuchando...",
+        "online": {
+            "title": "¡Vuelves a estar en línea!",
+            "description": "Procesando los mensajes pendientes."
+        },
+        "offline": {
+            "title": "Estás sin conexión",
+            "description": "Tu mensaje está en cola y se enviará cuando vuelvas a tener conexión."
+        },
+        "status": {
+            "pending": "Pendiente...",
+            "failed": "Fallo al enviar. Haz clic para reintentar."
+        }
+    },
+    "store": {
+        "clearedMessage": "El tapiz ha sido limpiado. Comencemos de nuevo. ¿Qué buscas?"
+    },
+    "memory": {
+        "title": "Tu Destino Tejido",
+        "description": "Estas son las verdades centrales que he visto en el tapiz de tu vida. Puedes alterarlas o eliminarlas si el destino ha cambiado.",
+        "noFactsTitle": "El tapiz está en blanco",
+        "noFactsDesc": "Aún no he percibido los hilos principales de tu destino. Hablemos para que pueda conocerte mejor.",
+        "saveAriaLabel": "Guardar cambio",
+        "cancelAriaLabel": "Cancelar edición",
+        "editAriaLabel": "Editar hilo",
+        "deleteAriaLabel": "Cortar hilo",
+        "deleteConfirmTitle": "¿Estás seguro?",
+        "deleteConfirmDesc": "Esta acción no se puede deshacer. Este hilo será cortado permanentemente del tapiz de tu destino."
+    },
+    "summary": {
+        "title": "Resúmenes Diarios",
+        "description": "Aquí encontrarás un resumen de tus lecturas diarias, destacando las energías cósmicas y los temas principales.",
+        "chart": {
+            "title": "Tendencia Energética",
+            "description": "Una visualización de tus energías espirituales en las sesiones recientes."
+        },
+        "manualGenerate": {
+            "buttonDefault": "Generar Resúmenes Anteriores",
+            "buttonLimit": "Generar Resumen de Hoy",
+            "title": "Generando resúmenes",
+            "desc": "Estoy analizando tus conversaciones pasadas. Esto puede tardar un momento.",
+            "inProgress": "Analizando conversaciones...",
+            "successTitle": "¡Resúmenes listos!",
+            "successDesc": "Tus nuevos resúmenes ya están disponibles. El chat se ha reiniciado para un nuevo comienzo.",
+            "disabledPlaceholder": "Genera el resumen para continuar..."
+        },
+        "noSummaries": {
+            "title": "Aún no hay resúmenes",
+            "desc": "Cuando tengas conversaciones de días pasados, aparecerá un botón en el chat para generar el resumen."
+        },
+        "offlineErrorDesc": "Parece que no tienes conexión a internet. La aplicación necesita acceso a la red para funcionar."
+    },
+    "settings": {
+        "personalization": {
+            "title": "Personalización",
+            "desc": "Ayuda al Oráculo a conocerte mejor. Esta información se usará para personalizar tus lecturas.",
+            "nameLabel": "Tu Nombre",
+            "namePlaceholder": "¿Cómo debería llamarte?",
+            "genderLabel": "¿Cómo te identificas?",
+            "genderMale": "Hombre",
+            "genderFemale": "Mujer",
+            "genderNonBinary": "No binario",
+            "savedDesc": "Tus ajustes de personalización se han guardado."
+        },
+        "personality": {
+            "title": "Personalidad del Oráculo",
+            "desc": "Elige el tono y el estilo de las respuestas del Oráculo.",
+            "placeholder": "Selecciona una personalidad...",
+            "wise": "Sabia y Empática (Por defecto)",
+            "direct": "Directa y Concisa",
+            "poetic": "Poética y Metafórica",
+            "savedDesc": "La personalidad del Oráculo ha sido actualizada."
+        },
+         "language": {
+            "title": "Idioma",
+            "desc": "Elige el idioma para la aplicación y el Oráculo."
+        },
+        "sync": {
+            "title": "Sincronización y Cuenta",
+            "desc": "Gestiona tu cuenta y cómo se guardan tus datos.",
+            "storageTitle": "Almacenamiento Local (por defecto)",
+            "storageDesc": "Actualmente, tus conversaciones se guardan solo en este dispositivo. Para activar la sincronización en la nube, inicia sesión con tu cuenta.",
+            "loginButton": "Iniciar sesión para activar sincronización",
+            "loggedInTitle": "Sincronización en la Nube Activada (Próximamente)",
+            "loggedInDesc": "Has iniciado sesión. La sincronización automática de tus datos entre dispositivos estará disponible en una futura actualización.",
+            "logoutButton": "Cerrar sesión",
+            "notConfiguredTitle": "Sincronización No Disponible",
+            "notConfiguredDesc": "Para habilitar la sincronización en la nube, el desarrollador necesita añadir las claves de API de Firebase a la configuración del proyecto."
+        },
+        "dangerZone": {
+            "title": "Zona de Peligro",
+            "desc": "Estas acciones son permanentes. Ten cuidado."
+        },
+        "clearData": {
+            "title": "Borrar datos locales",
+            "desc": "Esto eliminará permanentemente tu historial de chat, memoria y resúmenes de ESTE DISPOSITIVO.",
+            "button": "Borrar Datos Locales",
+            "confirmTitle": "¿Estás absolutamente seguro?",
+            "confirmDesc": "Esta acción es irreversible. Todos tus datos locales se perderán para siempre. No afectará a los datos sincronizados en la nube si has iniciado sesión.",
+            "confirmButton": "Sí, borrar datos locales",
+            "successTitle": "Datos locales eliminados",
+            "successDesc": "Se ha borrado toda tu información de este dispositivo."
+        }
+    },
+    "contact": {
+        "title": "Formulario de Contacto",
+        "description": "Si tienes alguna pregunta o sugerencia, no dudes en enviarnos un mensaje.",
+        "nameLabel": "Tu Nombre",
+        "namePlaceholder": "Jane Doe",
+        "emailLabel": "Tu Email",
+        "emailPlaceholder": "jane.doe@example.com",
+        "messageLabel": "Tu Mensaje",
+        "messagePlaceholder": "Escribe tu mensaje aquí...",
+        "sendButton": "Enviar Mensaje",
+        "sending": "Enviando...",
+        "validation": {
+            "nameRequired": "El nombre es obligatorio.",
+            "emailInvalid": "Por favor, introduce una dirección de email válida.",
+            "messageRequired": "El mensaje debe tener al menos 10 caracteres."
+        },
+        "success": {
+            "title": "¡Mensaje Enviado!",
+            "message": "Gracias por contactarnos. Te responderemos pronto."
+        },
+        "error": {
+            "title": "Error al Enviar",
+            "generic": "No se pudo enviar tu mensaje. Por favor, inténtalo de nuevo más tarde."
+        }
+    },
+    "login": {
+        "title": "Bienvenido de Nuevo",
+        "description": "Inicia sesión para sincronizar tus datos en la nube.",
+        "button": "Continuar con Google",
+        "signingIn": "Iniciando sesión...",
+        "errorTitle": "Error de inicio de sesión",
+        "error": "No se pudo iniciar sesión. Por favor, inténtalo de nuevo.",
+        "notConfiguredError": "La sincronización en la nube no está configurada en esta app."
+    }
+}
