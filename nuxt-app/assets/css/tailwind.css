@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 263 35% 8%; /* Deep, dark purple/blue */
+    --foreground: 240 10% 85%; /* Soft white/light gray */
+
+    --card: 263 30% 12%; /* Slightly lighter dark purple for cards */
+    --card-foreground: 240 10% 85%;
+
+    --popover: 263 40% 9%;
+    --popover-foreground: 240 10% 85%;
+
+    --primary: 278 80% 65%; /* Mystical Purple */
+    --primary-foreground: 0 0% 100%;
+    --primary-rgb: 191, 107, 255;
+
+    --secondary: 263 30% 20%;
+    --secondary-foreground: 240 5.9% 90%;
+
+    --muted: 263 30% 20%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 45 100% 60%; /* Gold/Amber Accent */
+    --accent-foreground: 263 35% 8%;
+
+    --destructive: 0 72% 51%; /* Fiery red for destructive actions */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 278 50% 40%; /* Purple border */
+    --input: 263 30% 15%;
+    --ring: 278 80% 70%;
+
+    --radius: 0.8rem;
+
+    --chart-1: 278 80% 65%;
+    --chart-2: 45 100% 60%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+
+    --sidebar-background: 263 40% 9%;
+    --sidebar-foreground: 240 10% 85%;
+    --sidebar-primary: 278 80% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 263 30% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 278 50% 25%;
+    --sidebar-ring: 278 80% 70%;
+  }
+
+  .dark {
+    --background: 263 35% 8%; /* Use the same dark theme for both */
+    --foreground: 240 10% 85%;
+    --card: 263 30% 12%;
+    --card-foreground: 240 10% 85%;
+    --popover: 263 40% 9%;
+    --popover-foreground: 240 10% 85%;
+    --primary: 278 80% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-rgb: 191, 107, 255;
+    --secondary: 263 30% 20%;
+    --secondary-foreground: 240 5.9% 90%;
+    --muted: 263 30% 20%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 45 100% 60%;
+    --accent-foreground: 263 35% 8%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 278 50% 40%;
+    --input: 263 30% 15%;
+    --ring: 278 80% 70%;
+
+    --sidebar-background: 263 40% 9%;
+    --sidebar-foreground: 240 10% 85%;
+    --sidebar-primary: 278 80% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 263 30% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 278 50% 25%;
+    --sidebar-ring: 278 80% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-image: url('/bg-texture.png'); /* Add a subtle texture */
+    background-blend-mode: multiply;
+  }
+}

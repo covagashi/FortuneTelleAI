@@ -1,0 +1,13 @@
+{
+  "style": "default",
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "assets/css/tailwind.css",
+    "baseColor": "zinc",
+    "cssVariables": true
+  },
+  "aliases": {
+    "utils": "~/lib/utils",
+    "components": "~/components"
+  }
+}
